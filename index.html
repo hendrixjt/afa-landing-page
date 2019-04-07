@@ -11,7 +11,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Kristi|Shadows+Into+Light"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Update From Tim!</title>
     <link rel="shortcut icon" href="/IMG/AFA.png" />
@@ -23,7 +24,7 @@
     <div class="background">
 
         <!-- NAVBAR -->
-        <nav id="main-navbar" class="navbar fixed-top bg-white navbar-expand-md navbar-light">
+        <nav id="main-navbar" class="navbar fixed-top bg-transparent navbar-expand-md navbar-light">
             <div class="container">
                 <a href="index.html" class="navbar-brand font-weight-bold">
                     <img class="navbar-img" src="/IMG/AFA.png" alt="">
@@ -37,29 +38,27 @@
                             <a href="index.html" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-                                href="https://twitter.com/americanfamassc" target="_blank"
-                                data-original-title="Follow us on Twitter">
+                            <a class="nav-link" title="Follow us on Twitter" data-toggle="tooltip"
+                                data-placement="bottom" href="https://twitter.com/americanfamassc" target="_blank">
                                 <i class="fab fa-twitter "></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-                                href="https://www.facebook.com/AMERICANFAMASSC" target="_blank"
-                                data-original-title="Like us on Facebook">
+                            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-toggle="tooltip"
+                                href="https://www.facebook.com/AMERICANFAMASSC" target="_blank" data-placement="bottom">
                                 <i class="fab fa-facebook-square"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
+                            <a class="nav-link" title="Follow us on Instagram" data-toggle="tooltip"
                                 href="https://www.instagram.com/americanfamassc" target="_blank"
-                                data-original-title="Follow us on Instagram">
+                                data-placement="bottom">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="services.html" class="nav-link fas fa-search"></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -81,11 +80,15 @@
         <section id="update" class="py-5 text-black">
             <div class="container">
                 <div class="row">
-                    <div id="" class=" col-md-6 mb-5 py-3">
-                        <h1 class="font-weight-bold">Special Update From Tim!
+                    <div id="" class=" col-md-6 mb-4 py-3">
+                        <h1 id="special-update" class="font-weight-bold">Special Update From Tim!
                         </h1>
                     </div>
-                    <div id="dark-overlay" class="col-md-8 mb-2 py-3">
+                    <div class="col-sm-6">
+                        <img id="circle-img" src="https://www.afa.net/media/367629/special_message_tim.png" alt=""
+                            class="img-fluid mx-auto d-block shadow-lg">
+                    </div>
+                    <div id="dark-overlay" class="col-md-8  py-3">
                         <h5 class="font-weight-bold">It was one of the most heartbreaking moments I have ever
                             experienced as
                             a pro-life Christian.
@@ -96,17 +99,12 @@
                             legislature
                             clapping and cheering after the passage of a law that facilitates the murder of late-term,
                             unborn babies.</p>
-
                         <p>It wasn’t far removed from the ancient days of the Roman Colosseum, when Christians were
                             mauled
                             by wild animals or murdered by gladiators to the roaring approval of bloodthirsty crowds.
                         </p>
                     </div>
-                    <!-- <div class="col-md-6">
-                    <img id="circle-img" src="https://www.afa.net/media/367629/special_message_tim.png?" alt=""
-                        class="img-fluid  d-none d-md-block shadow-lg">
-                </div> -->
-                    <div id="dark-overlay" class=" py-3 col-md-12 mt-3">
+                    <div id="dark-overlay" class="col-md-8 mt-2">
                         <h5 class="font-weight-bold">How could people be so callous to human suffering that they would
                             celebrate butchery?</h5>
                         <p>For more than 41 years, AFA has fought for the sanctity of human life and pushed back against
@@ -124,10 +122,14 @@
                             have
                             made one thing quite clear:</p>
                     </div>
-                    <div id="dark-overlay" data-toggle="collapse" href="#continue" class=" py-3 col-md-12 mt-3">
+
+                    <div id="dark-overlay" data-toggle="collapse" href="#continue" class=" col-md-8 mt-2">
                         <h5 class="font-weight-bold">AFA will never surrender the
                             unborn to the hands of the
-                            butchers. Not without a fight. <br> <br>Click Here to continue.</h5>
+                            butchers. Not without a fight. <br> <br><button class="btn btn-md btn-outline-dark">Click
+                                Here
+                                to continue Reading...</button>
+                        </h5>
                         <p id="continue" class="collapse">And it is a fight. In Virginia, a pro-abortion bill
                             similar to New York’s was narrowly defeated by pro-life Republicans. Similar laws are being
                             considered in other states including Rhode Island, Vermont, Massachusetts, and New Mexico,
@@ -140,7 +142,8 @@
                             cruel
                             evangelists for death as the abortion industry continues its war against unborn children.
                         </p>
-                        <h5 id="continue" class="collapse" class="font-weight-bold">As disheartening as these
+                        <h5 id="continue" class="collapse font-weight-bold">As disheartening as
+                            these
                             developments
                             are, there is hope – and
                             certainly reason to keep fighting.</h5>
@@ -191,12 +194,13 @@
                             called
                             them to be; this monthly update; and numerous other campaigns, initiatives and resources.
                         </p>
-                        <h5 id="continue" class="collapse" class="font-weight-bold">Want to make a difference in the
+                        <h5 id="continue" class="collapse font-weight-bold">Want to make a difference in the
                             life of
-                            our nation?</h5>
-                        <p id="continue" class="collapse">Pray with perseverance and patience. Then, move out in action,
+                            our nation?
+                            <br>
+                            Pray with perseverance and patience. Then, move out in action,
                             trusting Almighty God for the
-                            outcome. </p>
+                            outcome.</h5>
                         <p id="continue" class="collapse">Please join AFA’s effort to encourage Christians across
                             denominational lines to pray for an
                             end
@@ -221,28 +225,10 @@
                             <br>
                             American Family Association
                         </p>
-
                     </div>
-
                 </div>
             </div>
         </section>
-
-
-
-        <!-- FATHER DAUGHTER BACKGROUND -->
-
-        <!-- <header id="father-daughter-img">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 m-auto text-center text-dark">
-                    <h5> </h5>
-                    <h6></h6>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </header> -->
 
         <!-- TESTIMONIALS -->
 
@@ -290,55 +276,23 @@
         </div>
     </section> -->
 
-        <!-- 3D BUTTONS -->
-        <section id="media-icons" class="py-3 mb-5">
-            <ul id="three-d-icons">
-                <div class="container mt-5">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6  d-md-block p-3">
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-envelope-square text-white" aria-hidden="true"></i>
-                                    <span>Contact Us</span>
-                                </a>
-                            </li>
-                        </div>
-                        <div class="col-lg-3 col-md-6  d-md-block p-3">
-                            <li>
-                                <a href="https://afastore.net/">
-                                    <i class="fas fa-cart-plus text-white" aria-hidden="true"></i>
-                                    <span>Shop</span>
-                                </a>
-                            </li>
-                        </div>
-                        <div class="col-lg-3 col-md-6  d-md-block p-3">
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-donate text-white" aria-hidden="true"></i>
-                                    <span>Donate</span>
-                                </a>
-                            </li>
-                        </div>
-                        <div class="col-lg-3 col-md-6 d-md-block p-3">
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-heart text-white" aria-hidden="true"></i>
-                                    <span>Sign Up</span>
-                                </a>
-                            </li>
-                        </div>
+        <section id="" class="text-center  bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.afa.net/connect/">
+                            <button class="btn btn-lg btn-danger mb-3 mt-3">Action Alert
+                                Signup</button>
+                        </a>
                     </div>
                 </div>
-            </ul>
-    </div>
-    </div>
-    </section>
-
+            </div>
+        </section>
     </div>
 
     <!-- FOOTER -->
 
-    <footer id="main-footer" class="text-center  text-dark p-4">
+    <footer id="main-footer" class="text-center text-dark">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -347,14 +301,21 @@
             </div>
         </div>
     </footer>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
     <script>
         $('#year').text(new Date().getFullYear());
 
